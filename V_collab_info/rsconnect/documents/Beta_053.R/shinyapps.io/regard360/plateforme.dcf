@@ -1,0 +1,13 @@
+name: plateforme
+title: plateforme
+username: regard360
+account: regard360
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11676895
+bundleId: 12475089
+url: https://regard360.shinyapps.io/plateforme/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .Rprofile|bd_ann_recente_23juin2026.rdata|grande_bd_no_dim_23juin2026.rdata|grande_bd_no_dim_all_digits_23juin2026.rdata|grande_bd_parsco_23juin2026.rdata|Metadata_23juin2026.rdata

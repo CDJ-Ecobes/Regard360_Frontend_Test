@@ -1,0 +1,17 @@
+services:
+  rstudio:
+    build: .
+    container_name: regard360-dev
+    ports:
+      - "8787:8787"   # RStudio Server
+      - "3838:3838"   # application Shiny
+    environment:
+      DISABLE_AUTH: "true"
+    volumes:
+      - ../V_collab_info:/home/rstudio/projet
+      - renv-library:/opt/renv/library
+      - renv-cache:/opt/renv/cache
+
+volumes:
+  renv-library:
+  renv-cache:

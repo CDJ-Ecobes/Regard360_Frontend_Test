@@ -1,0 +1,25 @@
+###############################################################################
+# Interdiction de merge automatique pour les fichiers de solution et de projet
+# dans Visual Studio. Ainsi, dès que des changements proviennent des deux
+# branches utilisées pour la fusion, un conflit sera toujours déclaré, 
+# forçant l'utilisateur à valider leur contenu manuellement.
+#
+# Ceci évite de  nombreux problèmes avec la structure des projets.
+###############################################################################
+
+*.sln        -merge
+*.csproj     -merge
+*.vbproj     -merge
+*.vcxproj    -merge
+*.vcproj     -merge
+*.dbproj     -merge
+*.fsproj     -merge
+*.lsproj     -merge
+*.wixproj    -merge
+*.modelproj  -merge
+*.sqlproj    -merge
+*.wwaproj    -merge
+*.xproj      -merge
+*.props      -merge
+*.filters    -merge
+*.vcxitems   -merge

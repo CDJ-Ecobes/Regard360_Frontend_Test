@@ -1,0 +1,15 @@
+.text-container {
+  max-height: 25px;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.text-container.expanded {
+  max-height: none;
+}
+
+.voir-plus {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}

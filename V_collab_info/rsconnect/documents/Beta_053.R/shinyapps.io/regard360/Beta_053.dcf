@@ -1,0 +1,13 @@
+name: Beta_053
+title: Beta_053
+username: regard360
+account: regard360
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17576027
+bundleId: 12470829
+url: https://regard360.shinyapps.io/Beta_053/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .Rprofile|bd_ann_recente_23juin2026.rdata|grande_bd_no_dim_23juin2026.rdata|grande_bd_no_dim_all_digits_23juin2026.rdata|grande_bd_parsco_23juin2026.rdata|Metadata_23juin2026.rdata

@@ -1,0 +1,17 @@
+name: Deploy Dev to R360
+
+on:
+  push:
+    branches:
+      - Dev
+
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy Shiny Dev
+    runs-on: [self-hosted, linux, x64]
+
+    steps:
+      - name: Deploy Dev
+        run: /opt/docker/r360/projet/scripts/update-shiny-dev.sh
