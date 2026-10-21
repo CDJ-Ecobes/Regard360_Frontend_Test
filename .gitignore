@@ -682,4 +682,12 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,jetbrains+all,python,windows,macos
+# End of https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,jetbrains+all,python,windows,macosImpossible d’initialiser le périphérique PRN
+
+# R
+renv/library/
+renv/local/
+renv/cellar/
+renv/staging/
+.Rhistory
+rsconnect/
