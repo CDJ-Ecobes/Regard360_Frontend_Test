@@ -4074,7 +4074,7 @@
       "Language": "en-US",
       "NeedsCompilation": "no",
       "Author": "Kyle Cuilla [aut, cre, cph], Greg Lin [ctb], June Choe [ctb], Kent Russell [ctb]",
-      "Repository": "https://packagemanager.posit.co/cran/2024-05-18"
+      "Repository": "CRAN"
     },
     "readr": {
       "Package": "readr",
@@ -4273,7 +4273,7 @@
       "NeedsCompilation": "no",
       "Author": "Kevin Ushey [aut, cre] (ORCID: <https://orcid.org/0000-0003-2880-7407>), Hadley Wickham [aut] (ORCID: <https://orcid.org/0000-0003-4757-117X>), Posit Software, PBC [cph, fnd]",
       "Maintainer": "Kevin Ushey <kevin@rstudio.com>",
-      "Repository": "RSPM"
+      "Repository": "CRAN"
     },
     "reprex": {
       "Package": "reprex",
